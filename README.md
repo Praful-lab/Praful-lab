@@ -2,7 +2,9 @@
 
 # Praful U S
 
-### Website Developer & AI Builder · Founder, BotifyIndia
+### AI Product Developer at Eduflourish · Website Developer
+
+Founder of **BotifyIndia**, my separate independent venture.
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=900&color=25D366&center=true&vCenter=true&width=900&lines=I+turn+AI+prototypes+into+working+products.;From+model+to+backend+to+market.;Building+WhatsApp+AI+automation+for+small+businesses.)](https://git.io/typing-svg)
 
@@ -44,7 +46,8 @@ I am building reusable chatbot infrastructure with **n8n + WAHA**, alongside the
 
 ## Experience
 
-- **Founder / AI Product Developer — BotifyIndia** · 2026–Present
+- **AI Product Developer — Eduflourish** · Current role
+- **Founder — BotifyIndia** · Separate independent venture
 - **AI Prompt Engineer — Xtransmatrix** · 22 Oct 2025–2 May 2026
   - Designed reusable prompt systems and AI workflows.
   - Recognized as **Best Performer** for project contributions and workflow optimization.
