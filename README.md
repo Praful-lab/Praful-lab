@@ -2,7 +2,7 @@
 
 # Praful U S
 
-### AI Product Developer · Founder, BotifyIndia
+### Website Developer & AI Builder · Founder, BotifyIndia
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=900&color=25D366&center=true&vCenter=true&width=900&lines=I+turn+AI+prototypes+into+working+products.;From+model+to+backend+to+market.;Building+WhatsApp+AI+automation+for+small+businesses.)](https://git.io/typing-svg)
 
@@ -13,7 +13,15 @@
 
 </div>
 
-I build the entire AI product—not just the model. My work covers model integration, backend engineering, automation, deployment, production debugging, and the go-to-market systems needed to turn useful software into a working business.
+My core focus is **website design and development**: distinctive business websites, portfolios, landing pages and web applications. I connect clear interfaces to practical backends, lead capture, AI features and automation.
+
+**[Explore my 3D portfolio](https://praful-us-ai-product-developer.projectvinyas.chatgpt.site/)**
+
+## Websites first. Connected systems behind them.
+
+- **Websites:** responsive experiences with a clear story and thoughtful interactions.
+- **Web applications:** React interfaces, backend integrations and production debugging.
+- **AI & automation:** model integration and workflows that reduce repetitive work.
 
 Based in **Mangalore, Karnataka, India**.
 
