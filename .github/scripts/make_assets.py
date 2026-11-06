@@ -304,7 +304,7 @@ if __name__ == "__main__":
     card("hiring", "AI AGENT · IN PRODUCTION", "AI Hiring Pipeline",
          ["Résumé → LLM-drafted test → AI voice interview", "→ live proctoring → auto-booked Google Meet.", "One HR portal: the AI screens, HR decides."],
          ["LLM", "Voice AI", "Proctoring", "Calendar API"], VIOLET, "⬡")
-    card("eva", "CONVERSATIONAL AI", "Eva · Call Trainer",
+    card("learnloop", "CONVERSATIONAL AI", "LearnLoop",
          ["An LLM plays the parent on the other end of", "the line, so new staff rehearse product calls", "safely before they ever talk to a real lead."],
          ["LLM role-play", "Web app", "Render"], PINK, "◉")
     card("botify", "FOUNDER · WHATSAPP AGENTS", "BotifyIndia",

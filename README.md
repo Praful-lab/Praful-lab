@@ -25,7 +25,7 @@
 <td width="50%"><a href="https://github.com/Praful-lab/eduflourish-website"><img src="assets/card-hiring.svg" width="100%" alt="AI Hiring Pipeline — LLM tests, AI voice interviews, auto-booked Meet"/></a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://praful-us-ai-product-developer.projectvinyas.chatgpt.site/"><img src="assets/card-eva.svg" width="100%" alt="Eva — LLM parent-call simulator for staff training"/></a></td>
+<td width="50%"><a href="https://praful-us-ai-product-developer.projectvinyas.chatgpt.site/"><img src="assets/card-learnloop.svg" width="100%" alt="LearnLoop — LLM parent-call simulator for staff training"/></a></td>
 <td width="50%"><a href="https://www.instagram.com/botify_india_/"><img src="assets/card-botify.svg" width="100%" alt="BotifyIndia — WhatsApp AI agents for small businesses"/></a></td>
 </tr>
 </table>
