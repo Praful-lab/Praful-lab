@@ -24,7 +24,9 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#161b22,#3b0764,#5b21b6,#7c3aed,#22d3ee
 
       - name: Draw activity graph
-        run: python .github/scripts/activity_graph.py ${{ github.repository_owner }} dist/activity-graph.svg
+        run: |
+          python .github/scripts/activity_graph.py ${{ github.repository_owner }} "$RUNNER_TEMP/activity-graph.svg"
+          sudo cp "$RUNNER_TEMP/activity-graph.svg" dist/activity-graph.svg
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
