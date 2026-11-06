@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="260" viewBox="0 0 580 260">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#111733"/><stop offset="100%" stop-color="#070b14"/>
+  </linearGradient>
+  <linearGradient id="run" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#ec4899" stop-opacity="0"/><stop offset="100%" stop-color="#ec4899"/>
+  </linearGradient>
+  <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ec4899" stop-opacity="0.45"/><stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>.s{font-family:'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif} .m{font-family:'JetBrains Mono', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace}</style>
+</defs>
+<rect x="2" y="2" width="576" height="256" rx="16" fill="url(#bg)" stroke="#1e293b" stroke-width="1.5"/>
+<circle cx="510" cy="70" r="110" fill="url(#orb)">
+  <animate attributeName="r" values="95;125;95" dur="5s" repeatCount="indefinite"/>
+</circle>
+<rect x="2" y="2" width="576" height="256" rx="16" fill="none" stroke="#ec4899" stroke-width="2.5"
+      stroke-dasharray="160 1504" filter="url(#glow)">
+  <animate attributeName="stroke-dashoffset" values="0;-1664" dur="6s" repeatCount="indefinite"/>
+</rect>
+<text x="510" y="92" text-anchor="middle" class="s" font-size="60" fill="#ec4899" opacity="0.9">◉</text>
+<text x="28" y="48" class="m" font-size="12" fill="#ec4899" letter-spacing="3">CONVERSATIONAL AI</text>
+<text x="28" y="88" class="s" font-size="30" font-weight="800" fill="#ffffff">Eva · Call Trainer</text>
+<text x="28" y="128" class="s" font-size="15.5" fill="#cbd5e1">An LLM plays the parent on the other end of</text><text x="28" y="153" class="s" font-size="15.5" fill="#cbd5e1">the line, so new staff rehearse product calls</text><text x="28" y="178" class="s" font-size="15.5" fill="#cbd5e1">safely before they ever talk to a real lead.</text>
+<rect x="28" y="206" width="118" height="26" rx="13" fill="#ec4899" fill-opacity="0.1" stroke="#ec4899" stroke-opacity="0.5"/><text x="39" y="223.5" class="m" font-size="12" fill="#e2e8f0">LLM role-play</text><rect x="154.2" y="206" width="74" height="26" rx="13" fill="#ec4899" fill-opacity="0.1" stroke="#ec4899" stroke-opacity="0.5"/><text x="165.2" y="223.5" class="m" font-size="12" fill="#e2e8f0">Web app</text><rect x="236.0" y="206" width="66" height="26" rx="13" fill="#ec4899" fill-opacity="0.1" stroke="#ec4899" stroke-opacity="0.5"/><text x="247.0" y="223.5" class="m" font-size="12" fill="#e2e8f0">Render</text>
+</svg>

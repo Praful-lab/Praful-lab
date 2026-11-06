@@ -82,8 +82,6 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     .h{{fill:#22d3ee;font:600 18px 'Segoe UI',Ubuntu,sans-serif}}
     .s{{fill:#c9d1d9;font:13px 'Segoe UI',Ubuntu,sans-serif}}
     .d{{fill:#ffffff;stroke:#22d3ee;stroke-width:2}}
-    .ln{{stroke-dasharray:3000;stroke-dashoffset:3000;animation:draw 2.2s ease-out forwards}}
-    @keyframes draw{{to{{stroke-dashoffset:0}}}}
   </style>
 </defs>
 <rect width="{W}" height="{H}" rx="12" fill="#0d1117"/>
@@ -91,7 +89,9 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 <text x="{W - R}" y="32" class="s" text-anchor="end">{total} contributions</text>
 {''.join(grid)}
 <polygon points="{area}" fill="url(#a)"/>
-<polyline points="{line}" fill="none" stroke="url(#l)" stroke-width="3" stroke-linejoin="round" class="ln"/>
+<polyline points="{line}" fill="none" stroke="url(#l)" stroke-width="3" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0">
+  <animate attributeName="stroke-dashoffset" from="1" to="0" dur="2.2s" fill="freeze"/>
+</polyline>
 {dots}
 {''.join(labels)}
 </svg>'''

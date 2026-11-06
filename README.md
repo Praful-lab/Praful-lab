@@ -1,13 +1,5 @@
-<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,45:6d28d9,100:06b6d4&height=220&section=header&text=Praful%20U%20S&fontSize=64&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=AI%20Product%20Developer%20%C2%B7%20LLMs%20%C2%B7%20Agents%20%C2%B7%20Automation&descSize=18&descAlignY=58" width="100%" alt="Praful U S — AI Product Developer"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Praful-lab">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Fine-tuning+LLMs+for+low-resource+languages+%F0%9F%A7%A0;Building+AI+interviewers+that+screen%2C+test+and+schedule;Shipping+WhatsApp+AI+agents+with+n8n+%2B+WAHA;Turning+repetitive+work+into+autonomous+workflows+%E2%9A%A1" alt="Typing intro"/>
-  </a>
-</p>
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<a href="https://praful-us-ai-product-developer.projectvinyas.chatgpt.site/"><img src="assets/hero.svg" width="100%" alt="Praful U S — AI Product Developer: LLMs, AI agents and automation that ships"/></a>
 
 <p align="center">
   <a href="https://praful-us-ai-product-developer.projectvinyas.chatgpt.site/"><img src="https://img.shields.io/badge/3D_Portfolio-Explore-6d28d9?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Portfolio"/></a>
@@ -18,10 +10,31 @@
   <img src="https://komarev.com/ghpvc/?username=Praful-lab&style=for-the-badge&color=06b6d4&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
-<br/>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""/></p>
 
-<!-- ═══════════════════════════ WHO ═══════════════════════════ -->
-## `>_ whoami`
+<p align="center"><img src="assets/boot.svg" width="88%" alt="Boot sequence: loading Qwen3-4B + LoRA, spawning agents, linking tools, deploying the AI hiring pipeline — status online"/></p>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""/></p>
+
+<!-- ═══════════════════════════ WORK ═══════════════════════════ -->
+## ⚡ What I build
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/Praful-lab/voxintell"><img src="assets/card-voxintel.svg" width="100%" alt="VoxIntel — Tulu LLM: Qwen3-4B fine-tuned with LoRA"/></a></td>
+<td width="50%"><a href="https://github.com/Praful-lab/eduflourish-website"><img src="assets/card-hiring.svg" width="100%" alt="AI Hiring Pipeline — LLM tests, AI voice interviews, auto-booked Meet"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://praful-us-ai-product-developer.projectvinyas.chatgpt.site/"><img src="assets/card-eva.svg" width="100%" alt="Eva — LLM parent-call simulator for staff training"/></a></td>
+<td width="50%"><a href="https://www.instagram.com/botify_india_/"><img src="assets/card-botify.svg" width="100%" alt="BotifyIndia — WhatsApp AI agents for small businesses"/></a></td>
+</tr>
+</table>
+
+**Also built:** 🌿 a CNN crop-disease detector (3,500 images, >90% accuracy) driving an ESP32 sprayer · 🛡️ ML-based Android RAT detection *(M.Tech research)* · 🎯 a production PHP → Meritto CRM fix that stopped admission leads being silently rejected.
+
+<details>
+<summary><b>🧬 Read my source code</b></summary>
+<br/>
 
 ```python
 class PrafulUS:
@@ -42,21 +55,11 @@ class PrafulUS:
         return "If a human does it twice, an agent should do it the third time."
 ```
 
+</details>
+
+<details>
+<summary><b>🔌 How a BotifyIndia agent thinks</b></summary>
 <br/>
-
-<!-- ═══════════════════════════ NOW ═══════════════════════════ -->
-## 🛰️ Currently shipping
-
-> ### 🤖 An AI hiring pipeline — from résumé to Google Meet, with no manual steps
-> Built end-to-end at EduFlourish and live in production:
->
-> - **Bulk résumé intake** from job portals, auto-scored and ranked
-> - **Round 2 · AI assessment** — an LLM drafts role-specific, hard MCQs in the background; candidates take a **voice interview with an AI** while HR can **watch live** with proctoring flags
-> - **Round 3 · auto-scheduling** — real Google Calendar events with Meet links, sent from a shared HR mailbox
-> - **HR portal** — pipeline board, round-wise views, compare candidates, decision panel, configurable email timing
-
-> ### 💬 [BotifyIndia](https://www.instagram.com/botify_india_/) — WhatsApp AI agents for small businesses
-> Reusable chatbot infrastructure that answers customers, qualifies leads and follows up — 24/7.
 
 ```mermaid
 flowchart LR
@@ -68,21 +71,9 @@ flowchart LR
     D -->|Needs a human| G[Hand-off to owner]
 ```
 
-<br/>
+</details>
 
-<!-- ═══════════════════════════ WORK ═══════════════════════════ -->
-## 🧠 Featured AI work
-
-| | Project | Problem → Build → Result |
-|:-:|---|---|
-| 🗣️ | **[VoxIntel](https://github.com/Praful-lab/voxintell)** — Tulu LLM | Tulu has almost no production NLP tooling. **Fine-tuned Qwen3-4B with a LoRA adapter** on Kaggle, served it through **FastAPI + React 19** (chat, translate, learn, voice), and wrote a **19-page technical audit** of the system. |
-| 🎧 | **Eva** — AI call-training bot | New staff learn by fumbling real parent calls. Eva **simulates parent conversations with an LLM** so teams practise product pitches safely before going live. |
-| 🧑‍💼 | **AI Hiring Platform** | Screening hundreds of applicants by hand doesn't scale. Built **AI-drafted tests, AI voice interviews, live proctoring and auto-scheduling** into one HR portal. |
-| 🌿 | **Cotton Leaf Disease Detection** | Manual crop inspection is slow. Trained a **CNN on 3,500 images (>90% accuracy)** and drove an **ESP32 pesticide sprayer** from its predictions. |
-| 🛡️ | **Android RAT Detection** *(M.Tech research)* | Remote-access trojans hide inside ordinary apps. Building an **ML detection pipeline** aimed at journal publication. |
-| 🎯 | **VIBGYOR ACE Admissions** *(client)* | Leads were silently rejected by a production CRM. Traced it to phone formatting, fixed the **PHP → Meritto** integration, and added WhatsApp CTAs + Tawk.to capture. |
-
-<br/>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""/></p>
 
 <!-- ═══════════════════════════ STACK ═══════════════════════════ -->
 ## ⚙️ Tech arsenal
@@ -114,7 +105,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black"/>
 </p>
 
-<br/>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""/></p>
 
 <!-- ═══════════════════════════ PATH ═══════════════════════════ -->
 ## 🧭 Training run
@@ -129,7 +120,7 @@ epoch 01 │ AI/ML Industry Intern ····· Rooman Technologies ···· 2024�
 loss ↓   │ NSQF L5 AI–ML Engineer (480 h) · Generative AI Mastermind (Outskill) · NxtWave DBs · Udemy Python
 ```
 
-<br/>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""/></p>
 
 <!-- ═══════════════════════════ ACTIVITY ═══════════════════════════ -->
 ## 📈 Commit telemetry
@@ -149,7 +140,7 @@ loss ↓   │ NSQF L5 AI–ML Engineer (480 h) · Generative AI Mastermind (Out
   </picture>
 </p>
 
-<br/>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""/></p>
 
 <!-- ═══════════════════════════ CTA ═══════════════════════════ -->
 ## 🤝 Let's build something intelligent
@@ -162,6 +153,4 @@ I build the model, the backend and the interface — and wire them into the tool
   <a href="https://linkedin.com/in/prafulus"><img src="https://img.shields.io/badge/Hire_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,55:6d28d9,100:0b1020&height=120&section=footer" width="100%"/>
-</p>
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""/></p>
