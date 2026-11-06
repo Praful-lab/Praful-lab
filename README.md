@@ -1,108 +1,167 @@
-<div align="center">
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,45:6d28d9,100:06b6d4&height=220&section=header&text=Praful%20U%20S&fontSize=64&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=AI%20Product%20Developer%20%C2%B7%20LLMs%20%C2%B7%20Agents%20%C2%B7%20Automation&descSize=18&descAlignY=58" width="100%" alt="Praful U S — AI Product Developer"/>
+</p>
 
-# Praful U S
+<p align="center">
+  <a href="https://github.com/Praful-lab">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Fine-tuning+LLMs+for+low-resource+languages+%F0%9F%A7%A0;Building+AI+interviewers+that+screen%2C+test+and+schedule;Shipping+WhatsApp+AI+agents+with+n8n+%2B+WAHA;Turning+repetitive+work+into+autonomous+workflows+%E2%9A%A1" alt="Typing intro"/>
+  </a>
+</p>
 
-### AI Product Developer at Eduflourish · Website Developer
+<p align="center">
+  <a href="https://praful-us-ai-product-developer.projectvinyas.chatgpt.site/"><img src="https://img.shields.io/badge/3D_Portfolio-Explore-6d28d9?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://linkedin.com/in/prafulus"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://wa.me/918050392399?text=Hi%20Praful%2C%20I%20found%20your%20GitHub%20profile%20and%20would%20like%20to%20discuss%20an%20AI%20automation%20project."><img src="https://img.shields.io/badge/WhatsApp-Let's_build-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+  <a href="https://www.instagram.com/botify_india_/"><img src="https://img.shields.io/badge/BotifyIndia-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="BotifyIndia"/></a>
+  <a href="mailto:uspraful1@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=Praful-lab&style=for-the-badge&color=06b6d4&label=PROFILE+VIEWS" alt="Profile views"/>
+</p>
 
-Founder of **BotifyIndia**, my separate independent venture.
+<br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=900&color=25D366&center=true&vCenter=true&width=900&lines=I+turn+AI+prototypes+into+working+products.;From+model+to+backend+to+market.;Building+WhatsApp+AI+automation+for+small+businesses.)](https://git.io/typing-svg)
+<!-- ═══════════════════════════ WHO ═══════════════════════════ -->
+## `>_ whoami`
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prafulus/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Let's_build-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/918050392399?text=Hi%20Praful%2C%20I%20found%20your%20GitHub%20profile%20and%20would%20like%20to%20discuss%20an%20AI%20automation%20project.)
-[![BotifyIndia](https://img.shields.io/badge/Instagram-BotifyIndia-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/botify_india_/)
-[![Email](https://img.shields.io/badge/Email-uspraful1%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:uspraful1@gmail.com)
+```python
+class PrafulUS:
+    role      = "AI Product Developer @ EduFlourish"
+    venture   = "Founder, BotifyIndia — WhatsApp AI agents for small businesses"
+    base      = "Mangalore, Karnataka, India 🇮🇳"
+    education = ["B.E. Artificial Intelligence & ML — VCET (2021–25)",
+                 "M.Tech — research on ML-based Android RAT detection"]
 
-</div>
+    builds = {
+        "llm":        ["LoRA fine-tuning (Qwen3-4B)", "prompt systems", "AI-generated assessments"],
+        "agents":     ["AI voice interviews", "WhatsApp chatbots", "call-training simulators"],
+        "ml":         ["CNN vision models", "clustering + PCA", "malware detection"],
+        "product":    ["React / FastAPI / PHP / Spring Boot", "CRM integrations", "live dashboards"],
+    }
 
-My core focus is **website design and development**: distinctive business websites, portfolios, landing pages and web applications. I connect clear interfaces to practical backends, lead capture, AI features and automation.
+    def philosophy(self) -> str:
+        return "If a human does it twice, an agent should do it the third time."
+```
 
-**[Explore my 3D portfolio](https://praful-us-ai-product-developer.projectvinyas.chatgpt.site/)**
+<br/>
 
-## Websites first. Connected systems behind them.
+<!-- ═══════════════════════════ NOW ═══════════════════════════ -->
+## 🛰️ Currently shipping
 
-- **Websites:** responsive experiences with a clear story and thoughtful interactions.
-- **Web applications:** React interfaces, backend integrations and production debugging.
-- **AI & automation:** model integration and workflows that reduce repetitive work.
+> ### 🤖 An AI hiring pipeline — from résumé to Google Meet, with no manual steps
+> Built end-to-end at EduFlourish and live in production:
+>
+> - **Bulk résumé intake** from job portals, auto-scored and ranked
+> - **Round 2 · AI assessment** — an LLM drafts role-specific, hard MCQs in the background; candidates take a **voice interview with an AI** while HR can **watch live** with proctoring flags
+> - **Round 3 · auto-scheduling** — real Google Calendar events with Meet links, sent from a shared HR mailbox
+> - **HR portal** — pipeline board, round-wise views, compare candidates, decision panel, configurable email timing
 
-Based in **Mangalore, Karnataka, India**.
+> ### 💬 [BotifyIndia](https://www.instagram.com/botify_india_/) — WhatsApp AI agents for small businesses
+> Reusable chatbot infrastructure that answers customers, qualifies leads and follows up — 24/7.
 
-## Building Now: BotifyIndia
+```mermaid
+flowchart LR
+    A([Customer on WhatsApp]) --> B[WAHA gateway]
+    B --> C[n8n workflow]
+    C --> D{LLM: intent + reply}
+    D -->|FAQ| E[Instant answer]
+    D -->|Buying signal| F[Qualify lead → CRM]
+    D -->|Needs a human| G[Hand-off to owner]
+```
 
-**WhatsApp AI automation and chatbots for small businesses.**
+<br/>
 
-I am building reusable chatbot infrastructure with **n8n + WAHA**, alongside the delivery system around it: offers, content, cold outreach, onboarding, and repeatable client workflows.
+<!-- ═══════════════════════════ WORK ═══════════════════════════ -->
+## 🧠 Featured AI work
 
-> Want to automate customer support, lead qualification, or follow-ups? **[Let's build something →](https://wa.me/918050392399?text=Hi%20Praful%2C%20I%20found%20your%20GitHub%20profile%20and%20would%20like%20to%20discuss%20an%20AI%20automation%20project.)**
+| | Project | Problem → Build → Result |
+|:-:|---|---|
+| 🗣️ | **[VoxIntel](https://github.com/Praful-lab/voxintell)** — Tulu LLM | Tulu has almost no production NLP tooling. **Fine-tuned Qwen3-4B with a LoRA adapter** on Kaggle, served it through **FastAPI + React 19** (chat, translate, learn, voice), and wrote a **19-page technical audit** of the system. |
+| 🎧 | **Eva** — AI call-training bot | New staff learn by fumbling real parent calls. Eva **simulates parent conversations with an LLM** so teams practise product pitches safely before going live. |
+| 🧑‍💼 | **AI Hiring Platform** | Screening hundreds of applicants by hand doesn't scale. Built **AI-drafted tests, AI voice interviews, live proctoring and auto-scheduling** into one HR portal. |
+| 🌿 | **Cotton Leaf Disease Detection** | Manual crop inspection is slow. Trained a **CNN on 3,500 images (>90% accuracy)** and drove an **ESP32 pesticide sprayer** from its predictions. |
+| 🛡️ | **Android RAT Detection** *(M.Tech research)* | Remote-access trojans hide inside ordinary apps. Building an **ML detection pipeline** aimed at journal publication. |
+| 🎯 | **VIBGYOR ACE Admissions** *(client)* | Leads were silently rejected by a production CRM. Traced it to phone formatting, fixed the **PHP → Meritto** integration, and added WhatsApp CTAs + Tawk.to capture. |
 
-## Featured Work
+<br/>
 
-| Project | Problem → Build → Result |
-|---|---|
-| **[VoxIntel](https://github.com/Praful-lab/voxintell)** | **Tulu has almost no production-ready NLP tooling.** Fine-tuned Qwen3-4B with a LoRA adapter on Kaggle, connected it to a FastAPI backend and React 19 interface, and produced a **19-page technical audit** of the system. |
-| **[BotifyIndia](https://www.instagram.com/botify_india_/)** | **Small businesses lose time and leads in repetitive WhatsApp conversations.** Building reusable n8n + WAHA chatbot infrastructure together with its offers, outreach, onboarding, and delivery workflows. |
-| **VIBGYOR ACE Admissions Platform** · *Private client work* | **Admission leads were being rejected silently inside a production CRM pipeline.** Traced the failure to phone-number formatting, fixed the PHP-to-Meritto integration, and shipped WhatsApp CTAs, callback cards, and Tawk.to lead capture across the site. |
-| **Cotton Leaf Disease Detection & Control** · *Private academic project* | **Manual crop-disease inspection is slow and expert help is not always available.** Built a CNN-powered web application trained on **3,500 images**, reported prediction accuracy above **90%**, and demonstrated a working ESP32-controlled pesticide sprayer. |
+<!-- ═══════════════════════════ STACK ═══════════════════════════ -->
+## ⚙️ Tech arsenal
 
-## Experience
+**AI / ML**
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/LoRA_%2F_PEFT-8B5CF6?style=flat-square&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Qwen3-6d28d9?style=flat-square&logo=alibabacloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CNN_%2F_Computer_Vision-0f766e?style=flat-square&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prompt_Engineering-111827?style=flat-square&logo=openai&logoColor=white"/>
+</p>
 
-- **AI Product Developer — Eduflourish** · Current role
-- **Founder — BotifyIndia** · Separate independent venture
-- **AI Prompt Engineer — Xtransmatrix** · 22 Oct 2025–2 May 2026
-  - Designed reusable prompt systems and AI workflows.
-  - Recognized as **Best Performer** for project contributions and workflow optimization.
-- **Testing Intern — IFB** · Apr 2025–Sep 2025
-- **AI/ML Industry Intern — Rooman Technologies** · 18 Sep 2024–22 Feb 2025
-  - Built customer-journey analysis using Python, PCA, and K-Means clustering.
+**Product engineering**
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vite,fastapi,php,java,spring,mysql,supabase,docker,git,github,githubactions&theme=dark" alt="Engineering stack"/>
+</p>
 
-## Stack
+**Automation & integrations**
+<p>
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WAHA_WhatsApp_API-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google_Calendar_%26_Meet-4285F4?style=flat-square&logo=googlecalendar&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Meritto_CRM-0ea5e9?style=flat-square&logo=salesforce&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black"/>
+</p>
 
-### AI & Machine Learning
+<br/>
 
-![Qwen](https://img.shields.io/badge/Qwen3--4B-615CED?style=for-the-badge&logo=alibabacloud&logoColor=white)
-![LoRA](https://img.shields.io/badge/LoRA-Fine--Tuning-FF6F00?style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+<!-- ═══════════════════════════ PATH ═══════════════════════════ -->
+## 🧭 Training run
 
-### Product Engineering
+```text
+epoch 05 │ AI Product Developer ······ EduFlourish ············ now        ▶ shipping LLM products
+epoch 04 │ Founder ··················· BotifyIndia ············ now        ▶ WhatsApp AI agents
+epoch 03 │ AI Prompt Engineer ········ Xtransmatrix ··········· 2025–26    ★ Best Performer
+epoch 02 │ Testing Intern ············ IFB ···················· 2025
+epoch 01 │ AI/ML Industry Intern ····· Rooman Technologies ···· 2024–25    ▶ PCA + K-Means journeys
+─────────┴────────────────────────────────────────────────────────────────────────────────────────
+loss ↓   │ NSQF L5 AI–ML Engineer (480 h) · Generative AI Mastermind (Outskill) · NxtWave DBs · Udemy Python
+```
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=111111)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
+<br/>
 
-### Automation & Integrations
+<!-- ═══════════════════════════ ACTIVITY ═══════════════════════════ -->
+## 📈 Commit telemetry
 
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![WAHA](https://img.shields.io/badge/WAHA-WhatsApp_HTTP_API-128C7E?style=for-the-badge&logo=whatsapp&logoColor=white)
-![WhatsApp API](https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
-![Meritto CRM](https://img.shields.io/badge/Meritto-CRM_Integration-6C63FF?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub_Deployment-181717?style=for-the-badge&logo=github&logoColor=white)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Praful-lab&theme=tokyonight&hide_border=true&background=0D1117&ring=06B6D4&fire=8B5CF6&currStreakLabel=22D3EE" alt="GitHub streak"/>
+</p>
 
-## Credentials
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Praful-lab&bg_color=0D1117&color=22D3EE&line=8B5CF6&point=ffffff&area=true&area_color=6d28d9&hide_border=true&custom_title=Contribution%20activity" width="100%" alt="Activity graph"/>
+</p>
 
-- **AI–Machine Learning Engineer Skill Competency** — 480 hours, NSQF Level 5
-- **Generative AI Mastermind** — Outskill, Dec 2025
-- **Introduction to Databases** — NxtWave, May 2025
-- **Complete Python Course: Beginner to Advanced** — Udemy, Sep 2024
-- **B.E. Artificial Intelligence & Machine Learning** — VCET, 2021–2025
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Praful-lab/Praful-lab/output/github-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/Praful-lab/Praful-lab/output/github-snake.svg" alt="Contribution snake"/>
+  </picture>
+</p>
 
-## GitHub Activity
+<br/>
 
-<div align="center">
+<!-- ═══════════════════════════ CTA ═══════════════════════════ -->
+## 🤝 Let's build something intelligent
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Praful-lab&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Praful's GitHub statistics" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praful-lab&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Praful's most-used languages" />
+Working on an **AI product, a WhatsApp agent, an internal workflow, or a CRM-connected customer journey?**
+I build the model, the backend and the interface — and wire them into the tools your team already uses.
 
-<img src="https://streak-stats.demolab.com?user=Praful-lab&theme=transparent&hide_border=true" alt="Praful's GitHub contribution streak" />
+<p align="center">
+  <a href="https://wa.me/918050392399?text=Hi%20Praful%2C%20I%20found%20your%20GitHub%20profile%20and%20would%20like%20to%20discuss%20an%20AI%20automation%20project."><img src="https://img.shields.io/badge/Start_a_conversation-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/prafulus"><img src="https://img.shields.io/badge/Hire_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</p>
 
-</div>
-
-## Let's Build Something
-
-If you are working on an AI product, WhatsApp automation, internal workflow, or CRM-connected customer journey, let's talk.
-
-**[Start a conversation on WhatsApp →](https://wa.me/918050392399?text=Hi%20Praful%2C%20I%20found%20your%20GitHub%20profile%20and%20would%20like%20to%20discuss%20an%20AI%20automation%20project.)**
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,55:6d28d9,100:0b1020&height=120&section=footer" width="100%"/>
+</p>
