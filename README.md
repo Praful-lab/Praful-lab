@@ -139,7 +139,7 @@ loss ↓   │ NSQF L5 AI–ML Engineer (480 h) · Generative AI Mastermind (Out
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Praful-lab&bg_color=0D1117&color=22D3EE&line=8B5CF6&point=ffffff&area=true&area_color=6d28d9&hide_border=true&custom_title=Contribution%20activity" width="100%" alt="Activity graph"/>
+  <img src="https://raw.githubusercontent.com/Praful-lab/Praful-lab/output/activity-graph.svg" width="100%" alt="Contribution activity, last 30 days"/>
 </p>
 
 <p align="center">
